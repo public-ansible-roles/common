@@ -3,3 +3,8 @@
   yum:
     name: vim
     state: present
+
+- name: "pkg | install wget"
+  yum:
+    name: wget
+    state: present
