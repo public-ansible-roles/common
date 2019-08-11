@@ -1,10 +1,10 @@
 ---
-- name: "pkg | install vim"
+- name: "common | install vim"
   yum:
     name: vim
     state: present
 
-- name: "pkg | install wget"
+- name: "common | install git"
   yum:
-    name: wget
+    name: git
     state: present
